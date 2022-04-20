@@ -4,10 +4,11 @@ function running_late(date){
     const day = date.getDate();
 
     const compareDate = new Date(year,month,day,22,00,00);
+    let result;
     if(date >= compareDate)
-        return 'It is late!';
+        result = 'It is late!';
     else
-        return 'It is still early';
+        result = 'It is still early';
 }
 
 module.exports = running_late;
