@@ -9,6 +9,8 @@ function running_late(date){
         result = 'It is late!';
     else
         result = 'It is still early';
+    
+    return result;
 }
 
 module.exports = running_late;
